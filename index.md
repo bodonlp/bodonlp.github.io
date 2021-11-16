@@ -1,5 +1,6 @@
 ---
 layout: default
+title: The Bodo NLP Group
 ---
 
 ## About
