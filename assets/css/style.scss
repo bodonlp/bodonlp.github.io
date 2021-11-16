@@ -11,8 +11,8 @@ $header-bg-color: #56CCF2 !default;
 $header-bg-color-secondary: #2F80ED !default;
 
 // Text
-$section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
+$section-headings-color: #1B9CFC !default;
+$body-text-color: #24292f !default;
 $body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
 
@@ -26,3 +26,92 @@ $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
 @import "{{ site.theme }}";
+
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    opacity: 0.8;
+  
+    @include large {
+      font-size: 1.5rem;
+    }
+  
+    @include medium {
+      font-size: 1.15rem;
+    }
+  
+    @include small {
+      font-size: 1rem;
+    }
+  }
+  
+.project-tagline-middle {
+    opacity: 0.7;
+}
+
+.project-department {
+    @include large {
+      font-size: 1.2rem;
+    }
+
+    @include medium {
+      font-size: 1.15rem;
+    }
+
+    @include small {
+      font-size: 1rem;
+    }
+}
+
+.project-institute {
+  font-family: serif;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+  
+  @include large {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include medium {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include small {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
+}
+
+.wrapper-item {
+  display: grid;
+  justify-content: center;
+}
+
+.wrapper-item img {
+  border-radius: 10px;
+}
+
+.faculty {
+  // display: flex;
+  // flex-direction: column;
+}
+
+.faculty-name {
+  font-family: 'Open sans';
+  font-weight: 600;
+  color: gray;
+  text-align: center;
+}
+
+.faculty-designation {
+  font-family: 'Open sans';
+  color: gray;
+  text-align: center;
+}
+
+.student {
+
+}
