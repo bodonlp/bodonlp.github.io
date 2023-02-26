@@ -17,4 +17,4 @@ The Bodo NLP Group at [Department of Computer Science and Engineering](https://c
 1. BodoTokenizer - A Bodo sentence tokenizer. [Link](https://github.com/bodonlp/bodo-tokenizer)
 
 ## Contact
-In case of any query or potential collaboration feel free to contact Sanjib Narzary, Asst. Professor, Department of Computer Science & Engineering, CIT Kokrajhar [san@cit.ac.in](san@cit.ac.in).
+In case of any query or potential collaboration feel free to contact Sanjib Narzary, Asst. Professor, Department of Computer Science & Engineering, CIT Kokrajhar at [san@cit.ac.in](san@cit.ac.in).
